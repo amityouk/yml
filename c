@@ -23,3 +23,5 @@
         packages:
           - jenkins
           - java-devel
+  # run playbook
+  # ansible-playbook -i inventory web jenkins.yml -vvvv 
