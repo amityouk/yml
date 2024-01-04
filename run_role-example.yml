@@ -4,3 +4,7 @@
   become: true
   roles:
     - role: ansible-role-sonarqube 
+
+# ansible-playbook -i inventory run_role-example.yml -vvvv -C
+# -vvvv for verbose mode 
+# -C # check syntax mode.
