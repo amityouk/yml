@@ -1,5 +1,5 @@
 ---
-- name: deploy fun java 
+- name: Run role
   hosts: web
   become: true
   roles:
